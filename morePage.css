@@ -1,0 +1,45 @@
+.container{
+    display: grip;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.h6{
+    
+        font-size: 16px; 
+        font-weight: bold;
+        color: #333; 
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+        border-radius: 3%;
+      
+}
+
+
+
+@media screen and (max-width: 480px){
+    .heading{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .widthInput{
+        width:100%;
+    }
+}
+@media screen and (min-width: 480px){
+    .widthInput{
+        width: 25%;
+    }
+}
+
+.icon{
+    color:green; 
+    margin-right: 150px;
+}
+
+@media screen and (max-width: 480px){
+    .icon{
+        margin:0px; 
+    }
+}
